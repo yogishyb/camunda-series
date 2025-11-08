@@ -4,8 +4,8 @@ package com.aplish.camunda;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Main {
+public class HelloCamundaApplication {
     public static void main(String[] args) {
-        org.springframework.boot.SpringApplication.run(Main.class, args);
+        org.springframework.boot.SpringApplication.run(HelloCamundaApplication.class, args);
     }
 }

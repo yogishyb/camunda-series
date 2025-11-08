@@ -8,14 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class HelloFirstService {
+public class HelloCamundaService {
 
     @Autowired
     ZeebeClient zeebeClient;
 
 
-    @JobWorker(type = "123")
+    @JobWorker(type = "hello-camunda")
     public void handleFirstJob(final ActivatedJob job) {
-        System.out.println(job.getVariablesAsMap());
+        System.out.println("Hello from hello-camunda worker");
     }
 }

@@ -27,7 +27,5 @@ public class FirstComponent {
                        .latestVersion()
                        .send()
                        .join();
-
-         System.out.println("FirstComponent initialized!");
     }
 }
