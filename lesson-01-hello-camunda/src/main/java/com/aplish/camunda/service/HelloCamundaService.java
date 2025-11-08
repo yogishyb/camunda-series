@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelloCamundaService {
 
-    @Autowired
-    ZeebeClient zeebeClient;
+//    @Autowired
+//    ZeebeClient zeebeClient;
 
 
     @JobWorker(type = "hello-camunda")
