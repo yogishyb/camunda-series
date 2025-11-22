@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0989v6j" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.40.1" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.8.0">
+  <bpmn:process id="MOBILE_NOTIFY" name="MOBILE_NOTIFY" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1">
+      <bpmn:outgoing>Flow_13us310</bpmn:outgoing>
+      <bpmn:signalEventDefinition id="SignalEventDefinition_1l3uaca" signalRef="Signal_338s6uu" />
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_13us310" sourceRef="StartEvent_1" targetRef="Activity_1ezxbc1" />
+    <bpmn:endEvent id="Event_1t4846z">
+      <bpmn:incoming>Flow_19elstp</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_19elstp" sourceRef="Activity_1ezxbc1" targetRef="Event_1t4846z" />
+    <bpmn:scriptTask id="Activity_1ezxbc1">
+      <bpmn:extensionElements>
+        <zeebe:script expression="=&#34;demo&#34;" resultVariable="demo" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_13us310</bpmn:incoming>
+      <bpmn:outgoing>Flow_19elstp</bpmn:outgoing>
+    </bpmn:scriptTask>
+  </bpmn:process>
+  <bpmn:signal id="Signal_338s6uu" name="MY_FIRST_SIGNAL" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="MOBILE_NOTIFY">
+      <bpmndi:BPMNShape id="Event_060b4ru_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="182" y="102" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1t4846z_di" bpmnElement="Event_1t4846z">
+        <dc:Bounds x="422" y="102" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1pslt7u_di" bpmnElement="Activity_1ezxbc1">
+        <dc:Bounds x="270" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_13us310_di" bpmnElement="Flow_13us310">
+        <di:waypoint x="218" y="120" />
+        <di:waypoint x="270" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_19elstp_di" bpmnElement="Flow_19elstp">
+        <di:waypoint x="370" y="120" />
+        <di:waypoint x="422" y="120" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
