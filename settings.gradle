@@ -2,10 +2,4 @@ rootProject.name = 'camunda-series'
 
 
 include 'lesson-01-hello-camunda'
-//include 'lesson-04-hello-camunda'
-//include 'lesson-05-cockpit-overview'
-//include 'lesson-06-process-variables'
-//include 'lesson-07-user-tasks-forms'
-//include 'lesson-08-service-tasks'
-//include 'lesson-09-decision-tables'
-//include 'lesson-10-error-handling'
+include 'lesson-03-none-start-event'
