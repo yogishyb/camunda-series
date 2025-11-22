@@ -66,4 +66,4 @@ Once started, you can access the following interfaces:
 ## Happy Learning!
 
 Stay tuned for more lessons in this Camunda series.  
-YouTube Playlist: *(Add your YouTube link here once available.)*
+YouTube Playlist: [https://www.youtube.com/watch?v=2BfRteqiVz8&list=PL7LXv4YxanyguEYfUWYPT887-DGBiIIIi](https://www.youtube.com/watch?v=2BfRteqiVz8&list=PL7LXv4YxanyguEYfUWYPT887-DGBiIIIi)
