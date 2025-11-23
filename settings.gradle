@@ -5,3 +5,4 @@ include 'lesson-01-hello-camunda'
 include 'lesson-03-none-start-event'
 
 include 'lesson-04-signal-start-event'
+include 'lesson-05-message-start-event'
