@@ -14,3 +14,11 @@
 /build/tmp/jar/MANIFEST.MF
 /gradle/wrapper/gradle-wrapper.jar
 /**/build/*
+/.idea/modules/lesson-01-hello-camunda/camunda-series.lesson-01-hello-camunda.main.iml
+/.idea/modules/lesson-03-none-start-event/camunda-series.lesson-03-none-start-event.main.iml
+/.idea/modules/lesson-04-signal-start-event/camunda-series.lesson-04-signal-start-event.main.iml
+/.idea/modules/lesson-05-message-start-event/camunda-series.lesson-05-message-start-event.main.iml
+/.idea/modules/project-01-predictive-quality-control/camunda-series.project-01-predictive-quality-control.main.iml
+/.idea/modules.xml
+/project-01-predictive-quality-control/java_pid2406.hprof
+/project-01-predictive-quality-control/java_pid4843.hprof
